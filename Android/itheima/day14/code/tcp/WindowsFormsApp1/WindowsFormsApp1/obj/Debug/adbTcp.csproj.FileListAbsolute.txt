@@ -1,0 +1,84 @@
+D:\nick\project\C#\demo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csprojAssemblyReference.cache
+D:\nick\project\C#\demo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\nick\project\C#\demo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csproj.GenerateResource.cache
+D:\nick\project\C#\demo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\nick\project\C#\demo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\nick\project\C#\demo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\nick\project\C#\demo\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\nick\project\C#\demo\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\nick\project\C#\demo\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\nick\project\C#\demo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PagerControl.resources
+D:\nick\project\C#\demo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\nick\project\C#\demo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.phone.resources
+D:\script\adb_control\1126\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\script\adb_control\1126\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\script\adb_control\1126\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\script\adb_control\1126\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csprojAssemblyReference.cache
+D:\script\adb_control\1126\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\script\adb_control\1126\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\script\adb_control\1126\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PagerControl.resources
+D:\script\adb_control\1126\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.phone.resources
+D:\script\adb_control\1126\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\script\adb_control\1126\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csproj.GenerateResource.cache
+D:\script\adb_control\1126\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\script\adb_control\1126\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\nick\project\C#\adb群控\1126b\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\nick\project\C#\adb群控\1126b\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\nick\project\C#\adb群控\1126b\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\nick\project\C#\adb群控\1126b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csprojAssemblyReference.cache
+D:\nick\project\C#\adb群控\1126b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\nick\project\C#\adb群控\1126b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\nick\project\C#\adb群控\1126b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PagerControl.resources
+D:\nick\project\C#\adb群控\1126b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.phone.resources
+D:\nick\project\C#\adb群控\1126b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\nick\project\C#\adb群控\1126b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csproj.GenerateResource.cache
+D:\nick\project\C#\adb群控\1126b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\nick\project\C#\adb群控\1126b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\script\adb_control\1127\1127\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\script\adb_control\1127\1127\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\script\adb_control\1127\1127\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\script\adb_control\1127\1127\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csprojAssemblyReference.cache
+D:\script\adb_control\1127\1127\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\script\adb_control\1127\1127\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\script\adb_control\1127\1127\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PagerControl.resources
+D:\script\adb_control\1127\1127\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.phone.resources
+D:\script\adb_control\1127\1127\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\script\adb_control\1127\1127\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csproj.GenerateResource.cache
+D:\script\adb_control\1127\1127\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\script\adb_control\1127\1127\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\nick\project\C#\adb群控\1127b\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\nick\project\C#\adb群控\1127b\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\nick\project\C#\adb群控\1127b\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\nick\project\C#\adb群控\1127b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csprojAssemblyReference.cache
+D:\nick\project\C#\adb群控\1127b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\nick\project\C#\adb群控\1127b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\nick\project\C#\adb群控\1127b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PagerControl.resources
+D:\nick\project\C#\adb群控\1127b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.phone.resources
+D:\nick\project\C#\adb群控\1127b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\nick\project\C#\adb群控\1127b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csproj.GenerateResource.cache
+D:\nick\project\C#\adb群控\1127b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\nick\project\C#\adb群控\1127b\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\script\adb_control\1129\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\script\adb_control\1129\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\script\adb_control\1129\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\script\adb_control\1129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csprojAssemblyReference.cache
+D:\script\adb_control\1129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\script\adb_control\1129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\script\adb_control\1129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PagerControl.resources
+D:\script\adb_control\1129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.phone.resources
+D:\script\adb_control\1129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\script\adb_control\1129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csproj.GenerateResource.cache
+D:\script\adb_control\1129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\script\adb_control\1129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\nick\project\adb control\1202\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\nick\project\adb control\1202\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\nick\project\adb control\1202\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\nick\project\adb control\1202\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csprojAssemblyReference.cache
+D:\nick\project\adb control\1202\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\nick\project\adb control\1202\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+D:\nick\project\adb control\1202\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.PagerControl.resources
+D:\nick\project\adb control\1202\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.phone.resources
+D:\nick\project\adb control\1202\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\nick\project\adb control\1202\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\adbTcp.csproj.GenerateResource.cache
+D:\nick\project\adb control\1202\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\nick\project\adb control\1202\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
