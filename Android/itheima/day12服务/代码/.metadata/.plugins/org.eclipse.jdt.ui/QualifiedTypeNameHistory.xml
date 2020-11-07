@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.itheima.startservicedemo.MyService"/>
+<fullyQualifiedTypeName name="android.telephony.PhoneStateListener"/>
+<fullyQualifiedTypeName name="android.telephony.TelephonyManager"/>
+<fullyQualifiedTypeName name="com.itheima.phonerecorder.RecordService.MyPhoneStateListener"/>
+<fullyQualifiedTypeName name="android.media.MediaRecorder"/>
+<fullyQualifiedTypeName name="com.itheima.phonerecorder.RecordService"/>
+<fullyQualifiedTypeName name="com.itheima.serviceregisterreceiver.ScreenReceiver"/>
+<fullyQualifiedTypeName name="android.content.IntentFilter"/>
+<fullyQualifiedTypeName name="com.itheima.serviceregisterreceiver.MyService"/>
+<fullyQualifiedTypeName name="com.itheima.bindservice.MainActivity.MyConnection"/>
+<fullyQualifiedTypeName name="com.itheima.bindservice.BindService"/>
+<fullyQualifiedTypeName name="com.itheima.bindservice.BindService.MyBinder"/>
+<fullyQualifiedTypeName name="com.itheima.musicplayerframework.MusicPlayerService"/>
+<fullyQualifiedTypeName name="com.itheima.musicplayerframework.MainActivity.MyConnection"/>
+<fullyQualifiedTypeName name="com.itheima.musicplayerframework.MusicPlayerService.MyBinder"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="com.itheima.mixstartservice.MixStartService"/>
+<fullyQualifiedTypeName name="com.itheima.mixstartservice.MainActivity.MyConnection"/>
+<fullyQualifiedTypeName name="android.app.Service"/>
+<fullyQualifiedTypeName name="com.itheima.remotemethod.IService"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.content.ServiceConnection"/>
+<fullyQualifiedTypeName name="com.itheima.callremotemethod.MainActivity.MyConnection"/>
+<fullyQualifiedTypeName name="com.itheima.remotemethod.RemoteService.MyBinder"/>
+<fullyQualifiedTypeName name="android.os.Binder"/>
+<fullyQualifiedTypeName name="com.itheima.remotemethod.IService.Stub"/>
+<fullyQualifiedTypeName name="com.itheima.phonerecorder.R.id"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+</qualifiedTypeNameHistroy>

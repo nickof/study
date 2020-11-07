@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;com.itheima.phonerecorder.RecordService.MyPhoneStateListener.onCallStateChanged().recorder&apos; in &apos;com.itheima.phonerecorder.RecordService.MyPhoneStateListener.onCallStateChanged()&apos; to field&#x0D;&#x0A;- Original project: &apos;Day12_02_电话录音机&apos;&#x0D;&#x0A;- Original element: &apos;com.itheima.phonerecorder.RecordService.MyPhoneStateListener.onCallStateChanged().recorder&apos;&#x0D;&#x0A;- Field name: &apos;recorder&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;recorder&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;com.itheima.phonerecorder{RecordService.java" name="recorder" selection="1354 30" stamp="1474340561064" static="false" version="1.0" visibility="2"/>
+</session>

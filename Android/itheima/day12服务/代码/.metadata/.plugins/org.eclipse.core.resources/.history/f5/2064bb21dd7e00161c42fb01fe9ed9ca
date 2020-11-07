@@ -1,0 +1,41 @@
+package com.itheima.phonerecorder;
+
+import android.app.Service;
+import android.content.Intent;
+import android.os.IBinder;
+import android.telephony.PhoneStateListener;
+import android.telephony.TelephonyManager;
+
+public class RecordService extends Service {
+
+	@Override
+	public IBinder onBind(Intent intent) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void onCreate() {
+		super.onCreate();
+		TelephonyManager manager = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
+		manager.listen(listener, PhoneStateListener.LISTEN_CALL_STATE);
+	}
+
+	private class MyPhoneStateListener extends PhoneStateListener {
+		@Override
+		public void onCallStateChanged(int state, String incomingNumber) {
+			switch (state) {
+			case TelephonyManager.CALL_STATE_IDLE:
+
+				break;
+			case TelephonyManager.CALL_STATE_RINGING:
+
+				break;
+			case TelephonyManager.CALL_STATE_OFFHOOK:
+
+				break;
+
+			}
+		}
+	}
+}

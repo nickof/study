@@ -1,0 +1,5 @@
+package com.itheima.remotemethod;
+
+public interface IService {
+	public void callRemoteMethod();
+}
