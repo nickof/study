@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Day11_12_常见对话框</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">你好世界</string>
+    <string name="dialog_title">我是普通对话框</string>
+
+</resources>
