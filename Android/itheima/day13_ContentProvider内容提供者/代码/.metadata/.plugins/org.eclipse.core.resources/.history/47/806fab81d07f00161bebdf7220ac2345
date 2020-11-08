@@ -1,0 +1,39 @@
+package com.itheima.savecontact;
+
+import android.net.Uri;
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.ContentResolver;
+import android.view.Menu;
+import android.view.View;
+import android.widget.EditText;
+
+public class MainActivity extends Activity {
+
+    private EditText et_address;
+	private EditText et_name;
+	private EditText et_email;
+	private EditText et_phone;
+
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        //找到控件
+        
+        et_address = (EditText) findViewById(R.id.et_address);
+        et_name = (EditText) findViewById(R.id.et_name);
+        et_email = (EditText) findViewById(R.id.et_email);
+        et_phone = (EditText) findViewById(R.id.et_phone);
+    }
+
+
+   public void save(View v){
+	   //①获取内容解析者
+	   ContentResolver resolver = getContentResolver();
+	   //②获取URI
+	   Uri raw_contact_uri = Uri.parse("content://com.android.contacts/raw_contacts");
+	   Uri data_uri = Uri.parse("content://com.android.contacts/data");
+   }
+    
+}

@@ -1,0 +1,24 @@
+package com.itheima.smsbackup;
+
+import android.net.Uri;
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.ContentResolver;
+import android.view.Menu;
+import android.view.View;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void querySms(View v){
+    	//获取内容解析者
+    	ContentResolver resolver = getContentResolver();
+    	Uri uri = Uri.parse("content://sms");
+		resolver.query(uri, projection, selection, selectionArgs, sortOrder)
+    }
+}

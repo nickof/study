@@ -1,0 +1,41 @@
+package com.itheima.savecontacts;
+
+import android.net.Uri;
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.ContentResolver;
+import android.database.Cursor;
+import android.view.Menu;
+import android.view.View;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void queryContact(View v){
+    	//获取内容解析者
+    	ContentResolver resolver = getContentResolver();
+    	//通过resovler查询数据
+    	//查询raw_contact表的Uri
+    	Uri raw_contact_uri = Uri.parse("content://com.android.contacts/raw_contacts");
+    	//查询data表的Uri
+    	Uri data_uri = Uri.parse("content://com.android.contacts/data");
+		Cursor cursor = resolver.query(raw_contact_uri, new String[]{"contact_id"}, null, null, null);
+		while(cursor.moveToNext()){
+			String id = cursor.getString(0);
+			System.out.println("id"+id);
+			//String[] projection ={"data1","mimetype_id"};
+			Cursor cursor2 = resolver.query(data_uri, null, "raw_contact_id=?", new String[]{id}, null);
+			while(cursor2.moveToNext()){
+				String result = cursor2.getString(0);
+				System.out.println(result);
+			}
+		}
+    }
+   
+    
+}

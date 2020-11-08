@@ -1,0 +1,35 @@
+package com.itheima.accessothersdatabase;
+
+import android.net.Uri;
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.ContentResolver;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.view.Menu;
+import android.view.View;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+
+   public void query(View v){
+//	   String path = "/data/data/com.itheima.exposedatabase/databases/itheima.db";
+//	SQLiteDatabase database = SQLiteDatabase.openDatabase(path, null, SQLiteDatabase.OPEN_READWRITE);
+	   //获取内容解析者
+	   ContentResolver contentResolver = getContentResolver();
+	   Uri uri =Uri.parse("content://com.itheima.provider/query1");
+	Cursor cursor = contentResolver.query(uri, null, null, null, null);
+//	Cursor cursor = database.rawQuery("select * from info", null);
+	while(cursor.moveToNext()){
+		String name = cursor.getString(cursor.getColumnIndex("name"));
+		System.out.println("name="+name);
+	}
+   }
+    
+}

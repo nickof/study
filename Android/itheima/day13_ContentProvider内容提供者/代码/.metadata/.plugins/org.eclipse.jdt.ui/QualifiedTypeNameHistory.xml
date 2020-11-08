@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.itheima.exposedatabase.MyOpenHelper"/>
+<fullyQualifiedTypeName name="android.database.sqlite.SQLiteDatabase"/>
+<fullyQualifiedTypeName name="android.database.sqlite.SQLiteOpenHelper"/>
+<fullyQualifiedTypeName name="com.itheima.contentproviderdemo.MyOpenHelper"/>
+<fullyQualifiedTypeName name="android.content.UriMatcher"/>
+<fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="com.itheima.smsbackup.bean.Sms"/>
+<fullyQualifiedTypeName name="android.util.Xml"/>
+<fullyQualifiedTypeName name="com.itheima.savecontacts.Contact"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="android.content.ContentResolver"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.net.Uri"/>
+<fullyQualifiedTypeName name="android.content.ContentValues"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.database.ContentObserver"/>
+<fullyQualifiedTypeName name="com.itheima.contentobserver.MainActivity.MyObserver"/>
+<fullyQualifiedTypeName name="android.os.Handler"/>
+</qualifiedTypeNameHistroy>

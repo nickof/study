@@ -1,0 +1,62 @@
+package com.itheima.smsbackup;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import org.xmlpull.v1.XmlSerializer;
+
+import com.itheima.smsbackup.bean.Sms;
+
+import android.net.Uri;
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.ContentResolver;
+import android.database.Cursor;
+import android.util.Xml;
+import android.view.Menu;
+import android.view.View;
+
+public class MainActivity extends Activity {
+	private ArrayList<Sms> smsList = new ArrayList<Sms>();
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void querySms(View v){
+    	//获取内容解析者
+    	ContentResolver resolver = getContentResolver();
+    	//通过查看smsProvider的代码发现 子路径传null 代表查询所有的短信
+    	Uri uri = Uri.parse("content://sms");
+		String[] projection = {"address","date","body"};
+		Cursor cursor = resolver.query(uri, projection, null, null, null);
+		while(cursor.moveToNext()){
+			Sms sms = new Sms();
+			String address = cursor.getString(0);
+			String date = cursor.getString(1);
+			String body = cursor.getString(2);
+			sms.address = address;
+			sms.body = body;
+			sms.date = date;
+			
+			smsList.add(sms);
+		}
+		for(Sms sms:smsList){
+			System.out.println(sms);
+		}
+    }
+    
+    public void backup(View v){
+    	XmlSerializer serializer = Xml.newSerializer();
+    	try {
+			serializer.setOutput(openFileOutput("sms.xml", MODE_PRIVATE), "utf-8");
+			serializer.startDocument("utf-8", true);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+}

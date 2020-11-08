@@ -1,0 +1,72 @@
+package com.itheima.contentproviderdemo;
+
+import android.content.ContentProvider;
+import android.content.ContentValues;
+import android.content.UriMatcher;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+import android.net.Uri;
+
+public class MyProvider extends ContentProvider {
+
+	private MyOpenHelper openHelper;
+	private static final UriMatcher sURIMatcher = new UriMatcher(UriMatcher.NO_MATCH);
+	private static final int QUERY_SUCESS = 0;
+
+	static
+    {
+		//给当前的URI匹配器添加一个匹配规则
+        sURIMatcher.addURI("com.itheima.provider", "query", QUERY_SUCESS);
+    }
+
+	@Override
+	public int delete(Uri uri, String selection, String[] selectionArgs) {
+		SQLiteDatabase db = openHelper.getReadableDatabase();
+		int delete = db.delete("info", selection, selectionArgs);
+		return delete;
+	}
+
+	@Override
+	public String getType(Uri uri) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Uri insert(Uri uri, ContentValues values) {
+		SQLiteDatabase db = openHelper.getReadableDatabase();
+		long insert = db.insert("info", null, values);
+		return Uri.parse(String.valueOf(insert));
+	}
+
+	@Override
+	public boolean onCreate() {
+		openHelper = new MyOpenHelper(getContext());
+		return false;
+	}
+
+	@Override
+	public Cursor query(Uri uri, String[] projection, String selection,
+			String[] selectionArgs, String sortOrder) {
+		int result = sURIMatcher.match(uri);
+		if(result == QUERY_SUCESS){
+			SQLiteDatabase db = openHelper.getReadableDatabase();
+			Cursor cursor = db.query("info", projection, selection, selectionArgs, null, null, sortOrder);
+			return cursor;
+		}else{
+			throw new IllegalStateException();
+		}
+		
+	}
+
+	@Override
+	public int update(Uri uri, ContentValues values, String selection,
+			String[] selectionArgs) {
+		SQLiteDatabase db = openHelper.getReadableDatabase();
+		int update = db.update("info", values, selection, selectionArgs);
+		db.close();
+		return update;
+	}
+
+}

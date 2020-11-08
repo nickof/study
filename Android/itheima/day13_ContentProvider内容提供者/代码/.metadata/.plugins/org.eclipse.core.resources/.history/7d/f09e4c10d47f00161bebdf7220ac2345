@@ -1,0 +1,21 @@
+package com.itheima.contentobserver;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.ContentResolver;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        //获取内容解析者
+        ContentResolver resolver = getContentResolver();
+    }
+
+
+   
+    
+}

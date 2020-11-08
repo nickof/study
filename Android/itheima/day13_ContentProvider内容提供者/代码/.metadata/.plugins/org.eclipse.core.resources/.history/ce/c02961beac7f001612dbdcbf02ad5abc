@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="app_name">Day13_04_通过内容提供者访问短信数据库</string>
+
+</resources>

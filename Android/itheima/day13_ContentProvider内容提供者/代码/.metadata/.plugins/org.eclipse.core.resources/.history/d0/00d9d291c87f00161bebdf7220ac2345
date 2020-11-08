@@ -1,0 +1,27 @@
+package com.itheima.savecontacts;
+
+import android.net.Uri;
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.ContentResolver;
+import android.view.Menu;
+import android.view.View;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void queryContact(View v){
+    	//获取内容解析者
+    	ContentResolver resolver = getContentResolver();
+    	//通过resovler查询数据
+    	Uri uri = Uri.parse("content://com.android.contacts")
+		resolver.query(uri, projection, selection, selectionArgs, sortOrder)
+    }
+   
+    
+}

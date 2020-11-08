@@ -1,0 +1,31 @@
+package com.itheima.exposedatabase;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.database.sqlite.SQLiteDatabase;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+	private SQLiteDatabase database;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		// 创建openHelper对象
+		MyOpenHelper helper = new MyOpenHelper(this);
+		database = helper.getReadableDatabase();
+	}
+
+	public void insert(View v){
+		
+	}
+	
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+		database.close();
+	}
+
+}
