@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;intent2&apos; from expression &apos;intent&apos;&#x0D;&#x0A;- Original project: &apos;Day15_11_通知简介&apos;&#x0D;&#x0A;- Variable name: &apos;intent2&apos;&#x0D;&#x0A;- Destination method: &apos;com.itheima.notificationdemo.MainActivity.send()&apos;&#x0D;&#x0A;- Variable expression: &apos;intent&apos;" description="Extract local variable &apos;intent2&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.itheima.notificationdemo{MainActivity.java" name="intent2" replace="false" selection="1252 6" stamp="1474882408739" version="1.0"/>
+</session>

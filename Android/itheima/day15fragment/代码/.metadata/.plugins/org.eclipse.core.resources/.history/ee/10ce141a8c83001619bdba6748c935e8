@@ -1,0 +1,7 @@
+package com.itheima.fragmentdemo;
+
+import android.app.Fragment;
+
+public class SecondFragment extends Fragment {
+
+}

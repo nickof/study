@@ -1,0 +1,22 @@
+package com.itheima.notificationdemo;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.app.Notification;
+import android.app.Notification.Builder;
+import android.view.Menu;
+import android.view.View;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void send(View v){
+    	Notification.Builder builder = new Builder(this);
+    }
+    
+}

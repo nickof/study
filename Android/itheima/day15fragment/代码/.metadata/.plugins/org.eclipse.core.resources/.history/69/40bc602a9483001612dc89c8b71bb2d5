@@ -1,0 +1,37 @@
+package com.itheima.weixindemo;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageButton;
+
+public class MainActivity extends Activity implements OnClickListener{
+
+    private ImageButton ib_weixin;
+	private ImageButton ib_contact;
+	private ImageButton ib_find;
+	private ImageButton ib_me;
+
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        ib_weixin = (ImageButton) findViewById(R.id.ib_weixin);
+        ib_contact = (ImageButton) findViewById(R.id.ib_contact);
+        ib_find = (ImageButton) findViewById(R.id.ib_discover);
+        ib_me = (ImageButton) findViewById(R.id.ib_me);
+    }
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+   
+    
+}

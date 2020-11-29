@@ -1,0 +1,7 @@
+package com.itheima.fragmentcommunication;
+
+import android.app.Fragment;
+
+public class LeftFragment extends Fragment {
+
+}

@@ -1,0 +1,48 @@
+package com.itheima.viewanimation;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
+
+public class MainActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+	}
+
+	public void alpha(View v) {
+		//AlphaAnimation 透明度动画
+		//构造传入两个参数  第一个参数 动画开始时的透明度
+		//第二个参数 动画结束时的透明度   1.0完全不透明  0.0 透明
+		AlphaAnimation animation = new AlphaAnimation(1.0f, 0.0f);
+		//设置动画执行的时间
+		animation.setDuration(2000);
+		//设置重复的模式  Animation.REVERSE 反向执行
+		//Animation.RESTART 重复来一次
+		animation.setRepeatMode(Animation.REVERSE);
+		//设置重复的次数 如果重复次数为0 那么 只会执行一次动画, 如果重复次数>0 setRepeatMode才会有效
+		animation.setRepeatCount(2);
+	}
+
+	public void rotate(View v) {
+
+	}
+
+	public void scale(View v) {
+
+	}
+
+	public void translate(View v) {
+
+	}
+
+	public void set(View v) {
+
+	}
+
+}

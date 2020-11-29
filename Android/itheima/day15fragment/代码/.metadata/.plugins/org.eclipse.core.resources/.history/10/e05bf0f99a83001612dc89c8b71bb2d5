@@ -1,0 +1,7 @@
+package com.itheima.fragmentlifecycle;
+
+import android.app.Fragment;
+
+public class DemoFragment extends Fragment {
+
+}

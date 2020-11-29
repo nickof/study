@@ -1,0 +1,25 @@
+package com.itheima.supportlowlevel;
+
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+
+public class MainActivity extends FragmentActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        //ªÒ»°fragmentManager
+//        FragmentManager fragmentManager = getFragmentManager();
+        FragmentManager supportFragmentManager = getSupportFragmentManager();
+        FragmentTransaction transaction = supportFragmentManager.beginTransaction();
+        transaction.replace(R.id.fragment_container, new DemoFragment());
+        transaction.commit();
+    }
+
+
+   
+    
+}
